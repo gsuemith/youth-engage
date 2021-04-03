@@ -1,10 +1,15 @@
 import React from 'react'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Home from './routes/home/Home'
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Header/>
+      <Home />
+      <Footer/>
+    </>
   )
 }
 
