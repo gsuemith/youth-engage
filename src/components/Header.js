@@ -42,9 +42,10 @@ const Header = () => {
             </li>
           </ul>
         </li>
+        <li><a href="/register">Register</a></li>
         <li><a href="generic.html">Generic</a></li>
         <li><a href="elements.html">Elements</a></li>
-        <li><a href="/#" className="button">Log In</a></li>
+        <li><a href="/login" className="button">Log In</a></li>
       </ul>
     </nav>
   </header>

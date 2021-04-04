@@ -4,7 +4,7 @@ const Posts = () => {
   return (
   // <!-- Posts -->
   <section>
-    <h2>Arcu dolore</h2>
+    <h2>User Posts</h2>
     <ul class="posts">
       <li>
         <a href="/#">Etiam quis viverra lorem in semper lorem.</a>

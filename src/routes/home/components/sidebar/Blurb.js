@@ -5,7 +5,7 @@ const Blurb = () => {
     <>
     {/* <!-- Blurb --> */}
     <section>
-      <h2>Magna etiam</h2>
+      <h2>Blurb</h2>
       <p>Fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem sed euismod placerat. Vivamus porttitor et magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper lorem ipsum.</p>
       <ul className="actions">
         <li><a href="/#" className="button">Learn More</a></li>
@@ -14,7 +14,7 @@ const Blurb = () => {
 
   {/* <!-- Featured posts --> */}
     <section className="featured-posts">
-      <h2>Sed aliquam</h2>
+      <h2>Featured Post</h2>
       <article>
         <a href="/#" className="image fit"><img src="images/pic05.jpg" alt=""/></a>
         <header>
