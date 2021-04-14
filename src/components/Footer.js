@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = ({ about=true }) => {
   return (
@@ -10,7 +11,7 @@ const Footer = ({ about=true }) => {
         <div className="about">
           <p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur malesuada.</p><p>Sagittis felis ac sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis.</p>
           <ul className="actions">
-            <li><a href="/#" className="button">Learn More</a></li>
+            <li><Link to="/" className="button">Learn More</Link></li>
           </ul>
         </div>
         <div className="team">

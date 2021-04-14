@@ -1,6 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Banner = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'assets/js/slider.js'
+    script.async = true;
+    document.body.appendChild(script);
+    // return () => {
+    //   document.body.removeChild(script)
+    // }
+  }, [])
+
+
   return (
   <section id="banner">
     <article data-position="bottom right">

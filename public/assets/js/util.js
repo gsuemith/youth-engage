@@ -148,7 +148,7 @@
 
 					$this
 						.on('click', 'a', function(event) {
-
+							
 							var $a = $(this),
 								href = $a.attr('href'),
 								target = $a.attr('target');
@@ -165,7 +165,7 @@
 
 							// Redirect to href.
 								window.setTimeout(function() {
-
+									
 									if (target == '_blank')
 										window.open(href);
 									else

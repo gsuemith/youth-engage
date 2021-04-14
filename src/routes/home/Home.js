@@ -8,13 +8,13 @@ import Posts from './components/sidebar/Posts'
 
 const Home = () => {
   return (
-    <div class="wrapper">
+    <div className="wrapper">
       <section className="main">
         <Banner />
         <Features />
         <Spotlights />
       </section>
-      <aside class="sidebar">
+      <aside className="sidebar">
         <Blurb/>
         <Posts/>
       </aside>
