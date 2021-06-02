@@ -11,17 +11,21 @@ const Features = () => {
 
   {/* <!-- Features --> */}
   <section className="features alt">
-    <article className="icon fa-save">
-      <h3>Feature 1</h3>
-      <p>Duis non efficitur nisi, sed justo. Maecenas sagittis semper.</p>
-    </article>
     <article className="icon solid fa-laptop">
-      <h3>Feature 2</h3>
-      <p>Maecenas sagittis felis ac sagittis semper. Curabitur purus leo.</p>
+      <h3>Step 1: Create Account</h3>
+      <p>Log in or create your account to be able use our web site's features.</p>
+    </article>
+    <article className="icon solid fa-save">
+      <h3>Step 2: Register</h3>
+      <p>Register for Summer 2021!</p>
     </article>
     <article className="icon solid fa-paper-plane">
-      <h3>Feature 3</h3>
-      <p>Auctor orci eu dolor consectetur, interdum ullamcorper ante.</p>
+      <h3>Step 3: Trip Signup</h3>
+      <p>Sign up, give permission, and pay for trips and activities.</p>
+    </article>
+    <article className="icon fa-calendar">
+      <h3>Step 3: Get Involved</h3>
+      <p>Checkout the calendar and leave messages.</p>
     </article>
   </section>    
   </>
