@@ -18,21 +18,21 @@ const Footer = ({ about=true }) => {
           <article>
             <span className="image"><img src="images/pic06.jpg" alt=""/></span>
             <p>
-              <strong className="name">John Doe</strong>
+              <strong className="name">Laura Molina</strong>
               <span className="title">Lorem semper magna etiam</span>
             </p>
           </article>
           <article>
             <span className="image"><img src="images/pic07.jpg" alt=""/></span>
             <p>
-              <strong className="name">Jane Anderson</strong>
+              <strong className="name">Erin Dale</strong>
               <span className="title">Etiam feugiat adipiscing veroeros</span>
             </p>
           </article>
           <article>
             <span className="image"><img src="images/pic08.jpg" alt=""/></span>
             <p>
-              <strong className="name">Mike Smith</strong>
+              <strong className="name">Matt Baier</strong>
               <span className="title">Consequat nulla dolor blandit</span>
             </p>
           </article>

@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Home from './routes/home/Home'
 import Login from './routes/users/Login'
 import Register from './routes/users/Register'
+import Family from './routes/family/Family'
 
 import { UserContext } from './contexts'
 import { useSelector } from 'react-redux'
@@ -21,6 +22,7 @@ const App = () => {
       <Switch>
         <Route path="/register" component={Register}/>
         <Route path="/login" component={Login}/>
+        <Route path="/family" component={Family}/>
         <Route path="/" component={Home}/>
       </Switch>
       <Footer/>

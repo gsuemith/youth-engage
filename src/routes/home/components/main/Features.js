@@ -25,7 +25,7 @@ const Features = () => {
     </article>
     <article className="icon fa-calendar">
       <h3>Step 3: Get Involved</h3>
-      <p>Checkout the calendar and leave messages.</p>
+      <p>Checkout the calendar and let others know how you're doing.</p>
     </article>
   </section>    
   </>
